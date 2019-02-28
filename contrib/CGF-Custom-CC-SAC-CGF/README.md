@@ -1,6 +1,6 @@
 # Barracuda CloudGen Firewall for Azure - Secure Access Concentrator
 
-## Introductiomn
+## Introduction
 
 This template is intended to provide a complete deployment of the required components for the IoT Secure Access Controller solution, to allow Azure to provide the central location for your IoT devices to connect into. 
 
