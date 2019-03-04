@@ -43,7 +43,7 @@
     "subnetSAC": {
       "type": "string",
       "metadata": {
-        "description": "Network range of the SAC subnet  (e.g. 10.16.3.0/24)"
+        "description": "Network Range of the SAC subnet  (e.g. 10.16.3.0/24)"
       },
       "defaultValue": "10.16.3.0/24"
     },
