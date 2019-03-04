@@ -97,19 +97,7 @@
     },
 
 
-    "subnetCC": {
-      "type": "string",
-      "metadata": {
-        "description": "Network range of the Subnet containing the CloudGen Firewall (e.g. 172.16.136.0/24)"
-      }
-    },
-
-    "subnetSAC": {
-      "type": "string",
-      "metadata": {
-        "description": "Network range of the Subnet containing the CloudGen Firewall (e.g. 172.16.136.0/24)"
-      }
-    },
+    
     "vmSize": {
       "type": "string",
       "defaultValue": "Standard_DS1_v2",
