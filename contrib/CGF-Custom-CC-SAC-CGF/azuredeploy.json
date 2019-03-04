@@ -37,7 +37,7 @@
       "metadata": {
         "description": "Network range of the Subnet containing the NextGen Firewall (e.g. 172.16.136.0/24)"
       },
-      "defaultValue": "172.16.136.0/24"
+      "defaultValue": "10.16.0.0/24"
     },
     "subnetNameCC": {
       "type": "string",
