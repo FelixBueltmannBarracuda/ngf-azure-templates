@@ -82,7 +82,7 @@
     "version": {
       "type": "string",
       "metadata": {
-        "description": "Version of the Barracuda CloudGen Firewall to install"
+        "description": "Version of the Barracuda CloudGen Firewall to install "
       },
       "allowedValues": [ "7.2.3016101" ],
       "defaultValue": "7.2.3016101"
