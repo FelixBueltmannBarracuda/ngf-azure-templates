@@ -109,13 +109,13 @@
     "networkCCManagement": {
       "type": "string",
       "metadata": {
-        "description": "Network range that the CC Management network will use"
+        "description": "Network range for Secure Connector Management Networks"
       }
     },
     "networkSCDevices": {
       "type": "string",
       "metadata": {
-        "description": "Network range that the SC devices are to be available on"
+        "description": "Network range for Secure Connector Data Networks "
       }
     }
   },
