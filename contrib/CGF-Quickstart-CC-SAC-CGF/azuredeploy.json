@@ -75,19 +75,6 @@
       }
     },
   
-    "SACsubnetName": {
-      "type": "string",
-      "metadata": {
-        "description": "Name of the Subnet containing the CloudGen Firewall (e.g. CUDA-SUBNET-CGF)"
-      },
-      "defaultValue": "SAC-Subnet"
-    },
-    "subnetSAC": {
-      "type": "string",
-      "metadata": {
-        "description": "Network range of the Subnet containing the CloudGen Firewall (e.g. 172.16.136.0/24)"
-      }
-    },
     "version": {
       "type": "string",
       "metadata": {
