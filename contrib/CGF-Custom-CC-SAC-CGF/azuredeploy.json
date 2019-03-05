@@ -316,7 +316,7 @@
             "name": "AllowAnyInboundSCManagement",
             "properties": {
               "description": "Allow Inbound SC  Management traffic",
-              "protocol": "udp",
+              "protocol": "*",
               "sourcePortRange": "*",
               "destinationPortRange": "888-889",
               "sourceAddressPrefix": "[parameters('networkCCManagement')]",
