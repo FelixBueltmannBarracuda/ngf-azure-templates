@@ -313,35 +313,48 @@
             }
           },
           {
-            "name": "AllowAnyInboundMIP",
+            "name": "AllowAnyInboundSCManagement",
             "properties": {
-              "description": "Allow Inbound Management Tunnels",
-              "protocol": "*",
+              "description": "Allow Inbound SC Management traffic",
+              "protocol": "udp",
               "sourcePortRange": "*",
-              "destinationPortRange": "692",
-              "sourceAddressPrefix": "*",
-              "destinationAddressPrefix": "*",
+              "destinationPortRange": "888-889",
+              "sourceAddressPrefix": "[parameters('networkSCManagement')]",
+              "destinationAddressPrefix": "[variables( 'ccVmAddress' )]",
               "access": "Allow",
               "priority": 110,
               "direction": "Inbound"
+            },
+            {
+              "name": "AllowAnyInboundMIP",
+              "properties": {
+                "description": "Allow Inbound Management Tunnels",
+                "protocol": "*",
+                "sourcePortRange": "*",
+                "destinationPortRange": "692",
+                "sourceAddressPrefix": "*",
+                "destinationAddressPrefix": "*",
+                "access": "Allow",
+                "priority": 110,
+                "direction": "Inbound"
+              }
+            },
+            {
+              "name": "AllowAnyOutbound",
+              "properties": {
+                "description": "Allow Any",
+                "protocol": "*",
+                "sourcePortRange": "*",
+                "destinationPortRange": "1-65535",
+                "sourceAddressPrefix": "*",
+                "destinationAddressPrefix": "*",
+                "access": "Allow",
+                "priority": 100,
+                "direction": "Outbound"
+              }
             }
-          },
-          {
-            "name": "AllowAnyOutbound",
-            "properties": {
-              "description": "Allow Any",
-              "protocol": "*",
-              "sourcePortRange": "*",
-              "destinationPortRange": "1-65535",
-              "sourceAddressPrefix": "*",
-              "destinationAddressPrefix": "*",
-              "access": "Allow",
-              "priority": 100,
-              "direction": "Outbound"
-            }
+            ]
           }
-        ]
-      }
     },
 
     {
