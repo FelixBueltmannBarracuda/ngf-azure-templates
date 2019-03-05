@@ -422,14 +422,6 @@
       "properties": {
         "routes": [
           {
-            "name": "to-Internet",
-            "properties": {
-              "addressPrefix": "0.0.0.0/0",
-              "nextHopType": "VirtualAppliance",
-              "nextHopIpAddress": "[variables('lbIPAddress-internal')]"
-            }
-          },
-          {
             "name": "to-SAC",
             "properties": {
               "addressPrefix": "[parameters('networkSCDevices')]",
