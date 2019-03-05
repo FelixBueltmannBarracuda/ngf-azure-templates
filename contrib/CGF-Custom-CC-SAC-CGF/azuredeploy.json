@@ -319,7 +319,7 @@
               "protocol": "udp",
               "sourcePortRange": "*",
               "destinationPortRange": "888-889",
-              "sourceAddressPrefix": "[parameters('networkSCManagement')]",
+              "sourceAddressPrefix": "[parameters('networkCCManagement')]",
               "destinationAddressPrefix": "[variables( 'ccVmAddress' )]",
               "access": "Allow",
               "priority": 110,
