@@ -315,7 +315,7 @@
           {
             "name": "AllowAnyInboundSCManagement",
             "properties": {
-              "description": "Allow Inbound SC Management traffic",
+              "description": "Allow Inbound SC  Management traffic",
               "protocol": "udp",
               "sourcePortRange": "*",
               "destinationPortRange": "888-889",
