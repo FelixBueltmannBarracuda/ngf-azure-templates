@@ -428,6 +428,14 @@
               "nextHopType": "VirtualAppliance",
               "nextHopIpAddress": "[variables('sacVmAddress')]"
             }
+          },
+          {
+            "name": "to-SACMGMT",
+            "properties": {
+              "addressPrefix": "[parameters('networkCCManagement')]",
+              "nextHopType": "VirtualAppliance",
+              "nextHopIpAddress": "[variables('sacVmAddress')]"
+            }
           }
         ]
       }
